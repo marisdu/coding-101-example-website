@@ -1,0 +1,123 @@
+/*go to coolors.co website if you need ideas for colors*/
+/*it has a nice color palette generator*/
+
+/*these styles will affect our entire html document*/
+html {
+    /*this changes the font*/
+    font-family: monospace;
+    /*this changes the font color*/
+    color: #292b2c;
+    /*this changes the background color*/
+    background: #AFBFC0;
+}
+
+/* these styles will change what our navigation bar looks like */
+.nav {
+    /*this removes the bullet points from our navbar links*/
+    list-style-type: none;
+    /*this removes an extra spacing from the navbar*/
+    margin: 0;
+    padding: 0;
+    /*this makes sure that the navigation bar takes up and entire row*/
+    overflow: hidden;
+    /*this changes the background color of the navbar*/
+    background-color: #685762;
+}
+
+/*these styles will affect everything inside a list tag: <li></li> */
+li a {
+    /*makes the link into a box so that you can click anywhere in the box*/
+    display:block;
+    /*makes the box 100px wide*/
+    width:100px;
+    /*removes the underline*/
+    text-decoration: none;
+    /*makes font white*/
+    color: white;
+    /*makes the boxes be in a single row*/
+    float:left;
+    /*aligns text in the middle of each box*/
+    text-align: center;
+    /*adds spacing inside the boxes*/
+    padding: 14px 16px;
+}
+
+/*these styles will affect the <li></li> tags only when the user hovers their mouse over them*/
+li a:hover {
+    /*changes background color when user hovers mouse over link*/
+    background-color: #D68FD6;
+    /*changes font color when user hovers mouse over link*/
+    color:white;
+}
+
+/*these styles will affect all of our images*/
+img {
+    /*gives the image rounded corners*/
+    border-radius: 20px;
+    /*aligns the image in the center of the page*/
+    float:center;
+    /*adds some spacing around the image*/
+    padding: 10px 10px;
+    margin: auto;
+}
+
+/*these styles will affect our paragraphs tags: <p></p>*/
+p {
+    /*aligns text in center of page*/
+    text-align: center;
+    /*sets the font size to 20px*/
+    font-size: 20px;
+}
+
+/*these styles will affect our <h1></h1> tags*/
+h1 {
+    /*changes text color*/
+    color: #464F51;
+}
+
+/*these styles will affect our favorites links*/
+.link {
+    /*centers them in the middle of the page*/
+    margin: auto;
+    /*makes each link a clicable box*/
+    display:block;
+    /*makes the width of each box 600px*/
+    width: 600px;
+    /*aligns the text in the center of the box*/
+    text-align: center;
+    /*makes the text black*/
+    color: black; 
+    /*gives spacing inside of each of the boxes*/
+    padding: 10px 10px;
+}
+
+/*these styles will affect the links when the user hovers over them with their mouse*/
+.link:hover {
+    /*changes the link bakcground color when hovered over*/
+    background-color: #D68FD6;
+}
+
+/*these styles will affect the panel div*/
+.panel {
+    /*aligns text in the center of page*/
+    text-align: center;
+    /*ensures the panel is centered on the page*/
+    margin: auto;
+    /*changes the background color*/
+    background-color: #DEFFF2;
+    /*gives it a maximum width*/
+    max-width: 800px;
+    /*gives it spacing*/
+    padding: 2em 2em 4em; 
+    /*adds a nice shadow affect to the panel*/
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+
+/* To use an image as a background image:
+
+html {
+    background: url(img_flower.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+
+*/
